@@ -1,12 +1,24 @@
+# Aufgabe
+def aufgabe():
+    a = random.randint(1,10)
+    b = random.randint(1,10)
+    erg = a + b
+    print ("Die Aufgabe:", a, "+", b)
+    return erg
+
+# Kommentar
+def kommentar(eingabezahl, ergebnis):
+        if eingabezahl == ergebnis:
+            print (eingabezahl, "ist richtig")
+        else:
+            print (eingabezahl, "ist falsch")
+
 # Zufallsgenerator
 import random
 random.seed()
 
-# Werte und Berechnung 
-a = random.randint(1,10)
-b = random.randint(1,10)
-c = a + b
-print ("Die Aufgabe:", a, "+", b)
+# Aufgabe
+c = aufgabe()
 
 # Schleife und Anzahl initialisieren
 zahl = c + 1
@@ -30,13 +42,9 @@ while zahl != c:
         # Schleife unmittelbar fortsetzbar
         continue
 
-    # Verzweigung
-    if zahl == c:
-        print(zahl, "ist richtig")
-        # Abbruch der Schleife
-        break
-    else:
-        print(zahl, "ist falsch:")
+    # Kommentar
+    kommentar(zahl,c)
+
 
 # Anzahl ausgeben 
 print("Ergebnis:", c)
