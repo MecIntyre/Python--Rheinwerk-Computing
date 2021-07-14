@@ -53,26 +53,25 @@ for aufgabe in range(1,anzahl+1):
     for versuch in range(1,4):
 
     # 10: Eingabe
-    try:
-        print("Bitte eine Zahl eingeben:")
-        zahl = int(input())
-    except:
-        # Falls Umwandlung nicht erfolgreich
-        print("Sie haben keine Zahl eingegeben")
-        # Schleife unmittelbar fortsetzen
-        continue
+        try:
+            print("Bitte eine Zahl eingeben:")
+            zahl = int(input())
+        except:
+            # Falls Umwandlung nicht erfolgreich
+            print("Sie haben keine Zahl eingegeben")
+            # Schleife unmittelbar fortsetzen
+            continue
 
-    # 11: Abfrage 
-    if zahl == c:
-        print(zahl, "ist richtig")
-        richtig = richtig + 1
-        break
-    else:
-        print(zahl, "ist falsch")
+        # 11: Abfrage 
+        if zahl == c:
+            print(zahl, "ist richtig")
+            richtig = richtig + 1
+            break
+        else:
+            print(zahl, "ist falsch")
 
-    # 12: Richtiges Ergebnis der Ausgabe
-    print("Ergebnis: ", c)
+        # 12: Richtiges Ergebnis der Ausgabe
+        print("Ergebnis: ", c)
 
-
-# 13: Anzahl richtige  Ergebnisse
-print("Richtig:", richtig, "von", anzahl)
+    # 13: Anzahl richtige  Ergebnisse
+    print("Richtig:", richtig, "von", anzahl)
