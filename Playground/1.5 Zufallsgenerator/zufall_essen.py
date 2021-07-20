@@ -4,12 +4,7 @@ import random
 print("Das sind die folgenden Möglichkeiten:")
 print("")
 
-essensListe = [
-    "Döner",
-    "Pizza",
-    "Tortillas",
-    "Lammrücken",
-    "Nudelpfanne",]
+essensListe = ["Döner", "Pizza", "Tortillas", "Lammrücken", "Nudelpfanne",]
 
 index = 0
 while index <= 4:
