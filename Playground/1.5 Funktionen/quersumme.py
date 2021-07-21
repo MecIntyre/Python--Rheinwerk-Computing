@@ -8,9 +8,5 @@ def berechneQuersumme(zahl):
         quersumme = quersumme + ziffer
     return quersumme
 
-
 zahl = int(input("Bitte gib eine Zahl zur Berechnung der Quersumme ein: "))
 print(berechneQuersumme(zahl))
-
-
-        
