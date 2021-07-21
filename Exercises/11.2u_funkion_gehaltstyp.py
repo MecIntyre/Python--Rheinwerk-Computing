@@ -2,5 +2,10 @@
 # ansonsten Normalverdiener.
 
 def gehaltstyp(gehalt):
+    if gehalt <= 450:
+        return "Minijobber"
+    else:
+        return "Normalverdiener"
 
-    pass
+gehalt = int(input("Bitte gib dein Gehalt zur Bewertung ein: "))
+print(gehaltstyp(gehalt))
