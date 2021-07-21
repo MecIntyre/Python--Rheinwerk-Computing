@@ -1,1 +1,3 @@
-Python, Rheinwerk Computing
+Lots of exercises, examples and tasks 
+
+Python, Rheinwerk Computing and further trainings course
