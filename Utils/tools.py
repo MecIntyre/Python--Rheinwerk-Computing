@@ -21,7 +21,3 @@ def loadQuestionList(path):
     questionList = json.load(questionData)
     questionData.close()
     return questionList
-
-
-# Aufruf der Funktion zur Einbindung der JSON-Datei
-questionList = loadQuestionList(r"Playground\fragen.json")

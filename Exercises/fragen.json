@@ -1,0 +1,34 @@
+[
+    {
+        "frage": "Wer ist der Erfinder von Python?",
+        "antwort1": "Linus Torvalds",
+        "antwort2": "Bill Gates",
+        "antwort3": "Guido van Rossum",
+        "antwort4": "Jeff Bezos",
+        "lösung": 3
+    },
+    {
+        "frage": "Wie viele Einwohner hat Deutschland?",
+        "antwort1": "22 Millionen",
+        "antwort2": "37 Millionen",
+        "antwort3": "82 Millionen",
+        "antwort4": "62 Millionen",
+        "lösung": 3
+    },
+    {
+        "frage": "Was ist grün und riecht nach Miss Piggy?",
+        "antwort1": "Gras",
+        "antwort2": "Wiese",
+        "antwort3": "Säure",
+        "antwort4": "Kirmets Finger",
+        "lösung": 4
+    },
+    {
+        "frage": "Wann wurde Python ins Leben gerufen?",
+        "antwort1": "1967",
+        "antwort2": "1990",
+        "antwort3": "1987",
+        "antwort4": "1994",
+        "lösung": 3
+    }
+]
