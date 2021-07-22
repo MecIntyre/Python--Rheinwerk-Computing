@@ -8,7 +8,7 @@ namen = [
     ]
 
 # Beispiel 1
-# Anzeige der Namen die auf "n" und "s" enden.
+# Anzeige der Namen die auf "n" oder "s" enden.
 
 for name in namen:
     if (name[-1] == "n") or (name[-1] == "s"):
