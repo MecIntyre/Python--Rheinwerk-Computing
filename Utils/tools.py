@@ -13,6 +13,7 @@ def showChoice(choiceOptions):
     for index, option in enumerate(choiceOptions):
         print(index + 1, ": ", option, sep="")
 
+# Berechnung, Ausgabe als tuple und aufteilen der Ergbnisse in zwei Variablen (x,y).
 def calculateSumAndProduct(a, b):
     sum = a + b
     product = a * b
