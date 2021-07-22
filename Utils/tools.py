@@ -1,5 +1,5 @@
 # Lass den Nutzer solange eine Eingabe tätigen, 
-# bis sie eine der vorgegebenen Möglichkeiten entspricht.
+# bis sie einer der vorgegebenen Möglichkeiten entspricht.
 def readInput(prompt, inputChoice):
     while True:
         choice = input(prompt)
