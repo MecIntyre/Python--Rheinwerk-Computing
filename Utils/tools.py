@@ -1,3 +1,5 @@
+import json
+
 # Lass den Nutzer solange eine Eingabe tätigen, 
 # bis sie einer der vorgegebenen Möglichkeiten entspricht.
 def readInput(prompt, inputChoice):
@@ -13,14 +15,13 @@ def showChoice(choiceOptions):
     for index, option in enumerate(choiceOptions):
         print(index + 1, ": ", option, sep="")
 
-# Berechnung, Ausgabe als tuple und aufteilen der Ergbnisse in zwei Variablen (x,y).
-def calculateSumAndProduct(a, b):
-    sum = a + b
-    product = a * b
-    return (sum, product)   # Ausgabe als tuple
+# Einbinden der externen JSON-Datei (Fragenliste)
+def loadQuestionList(path):
+    questionData = open(path, encoding="utf-8")
+    questionList = json.load(questionData)
+    questionData.close()
+    return questionList
 
-x, y = calculateSumAndProduct(2, 4) # Speichern der Argumente des Tuples direkt in x und y
-print(x, y)
 
-showChoice(["Stephan", "Mathias", "Christian", "Dyea", "Norbert"])
-readInput("Mögliche Eingabe: (1 - 5): ", ["1", "2", "3", "4", "5"])
+# Aufruf der Funktion zur Einbindung der JSON-Datei
+questionList = loadQuestionList(r"Playground\fragen.json")
