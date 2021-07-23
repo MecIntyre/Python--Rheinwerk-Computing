@@ -8,6 +8,8 @@ def readInput(prompt, inputChoice):
         choice = choice.lower()
         if choice in inputChoice:
             return choice
+        else:
+            print("Eingabe ist ungültig!")
 
 # Ausgabe einer Liste der Auswahlmöglichkeiten.
 def showChoice(choiceOptions):
