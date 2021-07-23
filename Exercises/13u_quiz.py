@@ -1,7 +1,7 @@
 import Utils.tools
 import random
 
-questionList = Utils.tools.loadQuestionList(r"Exercises\question.json")
+questionList = Utils.tools.loadQuestionList(r"Utils\question.json")
 random.shuffle(questionList)
 
 highscore = 0
@@ -16,4 +16,4 @@ for question in questionList:
     else: 
         print("Das war leider falsch!")
 
-print("Du hast", highscore, "erreicht!")
+print("Du hast", highscore, "Punkte erreicht!")
